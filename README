@@ -1,0 +1,37 @@
+
+alti readme 
+
+This file is part of alti.
+
+Copyright (C) 2015 slughnaz
+ 
+alti is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+alti is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+   
+You should have received a copy of the GNU General Public License
+along with alti.  If not, see <http://www.gnu.org/licenses/>.
+
+--
+
+
+alti is basically a Digital Elevation Model (DTM) to Bitmap file (BMP) converter built in standard C.
+
+alti reads from ASCII XYZ files. It stores its informations into memory, allowing data to be process. It then exports results into Bitmap file format. The processing of the data presently include elevation range recognition. 
+
+
+To run the program
+
+use these parameters :
+alti path/to/xyz path/to/bmp low up
+
+Exemple:
+alti data/sample.xyz file 400 400
+
+
